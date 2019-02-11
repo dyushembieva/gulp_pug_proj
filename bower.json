@@ -1,0 +1,18 @@
+{
+  "name": "gulp_proj",
+  "description": "",
+  "main": "",
+  "authors":[
+    "Insayt <insait.rostov@ya.ru>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    ".idea",
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
+

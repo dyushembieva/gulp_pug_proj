@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+html
+    head
+        meta(charset="UTF-8")
+        title Document
+        link(rel="stylesheet", href="../css/main.css")
+    body
+        #wrapper
+            header.header
+                .header__inner
+                    .main-text
+                        .main-text__inner
+                            .main-text__top
+                                p Vivamus vestibulum ntulla nec ante
+                            .main-text__bottom
+                                p
+                                | Sed egestas, ante et vulputate volutpat, eros pede semper est,
+                                | vitae luctus metus libero eu augue.
+                            .main-text__arrow
+                            .main-text__arrow_1
+                            .main-text__arrow_2
+                            .main-text__arrow_3
+
+            .content
+                .content__inner
+                    .content__section
+                        .section-desc
+                            .section-desc__inner
+                                .section-desc__left
+                                    .description
+                                        .description__inner
+                                            .description__title
+                                                | Aliquam erat volutpat
+                                            .description__text
+                                                | Phasellus ultrices nulla quis nibh. Quisque a lectus.
+                                                | Donec consectetuer ligula vulputate sem tristique cursus.
+                                                | Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi.
+
+                                .section-desc__right
+                                    .desc-list
+                                        ul
+                                            -
+                                                var list = [
+                                                'Aliquam tincidunt mauris eu risus.',
+                                                'Vestibulum auctor dapibus neque.',
+                                                'Nunc dignissim risus id metus.',
+                                                'Cras ornare tristique elit.',
+                                                'Vivamus vestibulum ntulla nec ante.',
+                                                'Praesent placerat risus quis eros.'
+                                                ]
+                                            each value in list
+                                                li.desc-list__list= value
+                                .clear
+                            .text__arrow
+                            .text__arrow_1
+                            .text__arrow_2
+                            .text__arrow_3
+
+                .content__inner2
+                    .content__section2
+                        .section-desc2
+                            .section-desc__inner2
+                                .section-desc__left2
+                                    .description2
+                                        .description__inner2
+                                            .description__title2
+                                                | Quisque volutpat mattis eros
+                                            .description__text2
+                                                | Phasellus ultrices nulla quis nibh. Quisque a lectus.
+                                                | Donec consectetuer ligula vulputate sem tristique cursus.
+                                                | Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi.
+                                .section-desc__right2
+                                    .desc-list2
+                                        ul
+                                            each value in list
+                                                li.desc-list__list= value
+                                .clear
+                            .text__arrow
+                            .text__arrow_1
+                            .text__arrow_2
+                            .text__arrow_3
+
+                .content__inner3
+                    .content__section3
+                        .section-desc3
+                            .section-desc__inner3
+                                .section-desc__left3
+                                    .description3
+                                        .description__inner3
+                                            .description__title3
+                                                | Phasellus ultrices nulla quis
+                                            .description__text3
+                                                | Phasellus ultrices nulla quis nibh. Quisque a lectus.
+                                                | Donec consectetuer ligula vulputate sem tristique cursus.
+                                                | Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi.
+                                .section-desc__right3
+                                    .desc-list3
+                                        ul
+                                            each value in list
+                                                li.desc-list__list= value
+                                .clear
+                            .text__arrow
+                            .text__arrow_1
+                            .text__arrow_2
+                            .text__arrow_3
+
+                .footer
+                    .footer_border
+                        .footer-text
+                            | Sed egestas, ante et vulputate volutpat,
+                            | eros pede semper est, vitae luctus metus libero eu augue.
+
+                        button Cras consequat
+
+
+
+
